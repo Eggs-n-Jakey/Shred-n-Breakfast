@@ -6,5 +6,7 @@ The readme will be updated with each push defining changes as we go. 11/19/2023
 
 Push 1 initial commit. Boiler Plate and imported formating and styling. 11/19/2023
 
+Push 2 Image carousel added 11/19/2023
+
 
 ******************** 
