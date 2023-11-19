@@ -1,0 +1,107 @@
+html{
+    background-color: #333 !important;
+}
+
+header{
+    text-align: center;
+    background-color: #333; 
+    color: #fff;
+    font-family: 'Consolas', 'Menlo', 'Monaco', monospace;
+    margin-bottom: 0px;
+}
+body {
+    margin: 0;
+    background-color: #333; 
+    color: #fff;
+    font-family: 'Consolas', 'Menlo', 'Monaco', monospace;
+}
+
+
+nav {
+    display: flex;
+    align-items: center; 
+    justify-content: space-evenly; 
+    height: 60px; 
+    background-color: #333;
+    overflow: hidden;
+    margin-top: 0px;
+
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin: 0 160px;
+    margin-top: 10px;
+    margin-bottom: 0 auto;
+}
+
+a {
+    text-decoration: none !important;
+    color: whitesmoke !important;
+    font-weight: bold;
+    font-size: 18px !important;
+    font-family: 'Consolas', 'Menlo', 'Monaco', monospace !important;
+    transition: color 0.3s !important;
+}
+
+a:hover {
+    color: #5ed63d !important;
+}
+
+.carousel-container {
+    position: relative;
+}
+
+
+.carousel-text {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 38px;
+    text-align: center;
+    font-family: 'Consolas', 'Menlo', 'Monaco', monospace !important;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: #4d4d4d;
+}
+
+.card {
+    width: 300px;
+    margin: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+@media screen and (max-width: 900px){
+    li{
+        margin: 10px 70px;
+    }
+}
