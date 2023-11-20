@@ -12,5 +12,79 @@ Push 3 Added cards and about.html. Have yet to populate about, currently used te
 
 Push 4 Finished Formating, added footer with hyperlinks, finished about page, changed some colors and border thru out website. 11/20/2023
 
+Push 5 Skimmed directions, retracted about.html "about us", formated google map and form for contact. 11/20/2023
+
+Respository url="https://github.com/Eggs-n-Jakey/Shred-n-Breakfast" 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home page below
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ******************** 

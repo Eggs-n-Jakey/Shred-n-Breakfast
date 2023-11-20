@@ -28,7 +28,7 @@ nav {
     height: 60px; 
     background-color: #292828;
     overflow: hidden;
-    margin-top: 0px;
+    margin-bottom: 5px;
     border: 3px solid black;
     border-radius: 8px;
 }
@@ -115,6 +115,12 @@ a:hover {
     padding: 20px;
 }
 
+.story {
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+}
+
 .aboutp {
     margin: auto;
     background-color: #292828;
@@ -123,7 +129,7 @@ a:hover {
     color: white;
     font-family: 'Consolas', 'Menlo', 'Monaco', monospace !important;
     border: 3px solid rgb(6, 6, 6) !important;
-    margin-top: 5%;
+    margin-top: 2%;
     border-radius: 8px;
 }
 
@@ -135,12 +141,44 @@ a:hover {
     margin-top: 10px !important;
 }
 
+iframe {
+    height: 500px;
+    width: 90%;
+    border: 3px solid rgb(6, 6, 6) !important;
+    border-radius: 8px;
+}
+
+form {
+    margin: auto;
+    background-color: #292828;
+    width: 80%;
+    text-align: center;
+    color: white;
+    font-family: 'Consolas', 'Menlo', 'Monaco', monospace !important;
+    border: 3px solid rgb(6, 6, 6) !important;
+    margin-top: 5%;
+    border-radius: 8px;
+    padding-bottom: 5px;
+}
+
+form, h2 {
+    text-align: center;
+    color: white !important;
+}
+
+form, input, textarea {
+    width: 80% !important;
+    margin: auto !important;
+}
+
 footer{
     width: 40%;
     border: 3px solid rgb(6, 6, 6) !important;
     margin: auto;
     border-radius: 8px;
     background-color: #292828;
+    padding-top: 5px;
+    margin-top: 20px !important;
 }
 
 footer, h4 {
@@ -165,5 +203,9 @@ footer, h4 {
         height: 200px;
         width: auto;
         margin-top: 10px !important; 
+    }
+
+    footer {
+        width: 60%;
     }
 }
