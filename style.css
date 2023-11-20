@@ -7,11 +7,15 @@ header{
     background-color: #333; 
     color: #fff;
     font-family: 'Consolas', 'Menlo', 'Monaco', monospace;
-    margin-bottom: 0px;
+}
+
+header h1 {
+    padding-left: 50px !important;
+    font-size: 4em;
 }
 body {
     margin: 0;
-    background-color: #333; 
+    background-color: #333!important; 
     color: #fff;
     font-family: 'Consolas', 'Menlo', 'Monaco', monospace;
 }
@@ -22,10 +26,11 @@ nav {
     align-items: center; 
     justify-content: space-evenly; 
     height: 60px; 
-    background-color: #333;
+    background-color: #292828;
     overflow: hidden;
     margin-top: 0px;
-
+    border: 3px solid black;
+    border-radius: 8px;
 }
 
 ul {
@@ -58,6 +63,9 @@ a:hover {
     position: relative;
 }
 
+.carousel-inner{
+    border: 3px solid rgb(6, 6, 6) !important; 
+}
 
 .carousel-text {
     position: absolute;
@@ -76,15 +84,22 @@ a:hover {
     flex-wrap: wrap;
     padding: 20px;
     background-color: #4d4d4d;
+    font-family: 'Consolas', 'Menlo', 'Monaco', monospace;
 }
 
 .card {
-    width: 300px;
+    width: 400px;
     margin: 20px;
-    border: 1px solid #ddd;
+    border: 3px solid rgb(6, 6, 6) !important;
     border-radius: 8px;
     overflow: hidden;
     transition: transform 0.3s;
+    background-color: #292828 !important;
+    color: white !important;
+}
+
+.card h3, p {
+    text-align: center !important;
 }
 
 .card:hover {
@@ -100,8 +115,55 @@ a:hover {
     padding: 20px;
 }
 
+.aboutp {
+    margin: auto;
+    background-color: #292828;
+    width: 80%;
+    text-align: center;
+    color: white;
+    font-family: 'Consolas', 'Menlo', 'Monaco', monospace !important;
+    border: 3px solid rgb(6, 6, 6) !important;
+    margin-top: 5%;
+    border-radius: 8px;
+}
+
+.aboutp img {
+    border-radius: 8px;
+    height: 400px;
+    width: auto;
+    margin: auto;
+    margin-top: 10px !important;
+}
+
+footer{
+    width: 40%;
+    border: 3px solid rgb(6, 6, 6) !important;
+    margin: auto;
+    border-radius: 8px;
+    background-color: #292828;
+}
+
+footer, h4 {
+    text-align: center;
+    color: white;
+    font-family: 'Consolas', 'Menlo', 'Monaco', monospace !important;
+    margin-top: 10px;
+}
+
 @media screen and (max-width: 900px){
     li{
-        margin: 10px 70px;
+        margin: 10px 70px !important;
+    }
+
+    header h1{
+        padding-right: 40px;
+        font-size: 2.3em;
+    }
+
+    .aboutp img {
+        margin: auto;
+        height: 200px;
+        width: auto;
+        margin-top: 10px !important; 
     }
 }

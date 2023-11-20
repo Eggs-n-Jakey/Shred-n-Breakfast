@@ -8,5 +8,9 @@ Push 1 initial commit. Boiler Plate and imported formating and styling. 11/19/20
 
 Push 2 Image carousel added 11/19/2023
 
+Push 3 Added cards and about.html. Have yet to populate about, currently used template made from index, working on changing body of about.html 11/19/2023
+
+Push 4 Finished Formating, added footer with hyperlinks, finished about page, changed some colors and border thru out website. 11/20/2023
+
 
 ******************** 
